@@ -18,7 +18,7 @@ body {
     background-color: #e6e6e6;
 }
 
-h5 {
+.name {
     font-family: Brush Script MT, Bursh Script Std, cursive;
     font-weight: 400;
     font-size: 2.5rem;
