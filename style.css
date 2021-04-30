@@ -27,12 +27,14 @@ body {
     text-align: center;
     margin-top: 10px;
 }
+#main-color {
+    background-color: red;
+}
 
 .top {
     display: grid;
     grid-template-rows: 3fr 1fr;
     justify-content: center;
-    background-color: red;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     }
@@ -62,7 +64,6 @@ body {
     }
 
 .bottom {
-    background-color: red;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -82,6 +83,7 @@ input, button {
 
 #color-button1 {
     background-color: #1B1725;
+    color: lavenderblush;
 }
 
 #color-button2 {

@@ -16,13 +16,13 @@ pronounButton.addEventListener('click', () => {
     pronounWordBox.textContent = stuff;
 })
 
-const colorButton1 = document.getElementById('color-button1');
-const colorButton2 = document.getElementById('color-button2');
-const colorButton3 = document.getElementById('color-button3');
+const colorButton1 = document.getElementById('main-color');
+const colorButton2 = document.getElementById('main-color');
+const colorButton3 = document.getElementById('main-color');
 
-colorButton3.changeBackgroundColor('click', () => {
-    const tagColor = rgb (34, 108, 224)
-    top.changeBackgroundColor = tagColor;
-    //I'm not sure what to change the above command to//
+const mainColor = document.getElementById('main-color');
+
+colorButton1.addEventListener('click', () => {
+    const newColor1 = rgb('27, 23, 37')
+    backgroundColor.style.background = newColor1;    
 })
-
