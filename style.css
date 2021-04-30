@@ -27,7 +27,7 @@ body {
     text-align: center;
     margin-top: 10px;
 }
-#main-color {
+#main-color, #main-color2  {
     background-color: red;
 }
 
