@@ -6,3 +6,13 @@ myButton.addEventListener('click', () => {
     const name = userInput.value;
     wordBox.textContent = name;
 })
+
+const pronounInput = document.getElementById('pronoun-input');
+const pronounButton = document.getElementById('pronoun-button');
+const pronounWordBox = document.getElementById('pronoun-word-box');
+
+pronounButton.addEventListener('click', () => {
+    const stuff = pronounInput.value;
+    pronounWordBox.textContent = stuff;
+})
+
