@@ -79,3 +79,15 @@ input, button {
     flex-direction: column;
     margin: 10px;
 }
+
+#color-button1 {
+    background-color: #1B1725;
+}
+
+#color-button2 {
+    background-color: #A499B3 ;
+}
+
+#color-button3 {
+    background-color: #226CE0;
+}

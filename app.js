@@ -16,3 +16,11 @@ pronounButton.addEventListener('click', () => {
     pronounWordBox.textContent = stuff;
 })
 
+const pronounInput = document.getElementById('pronoun-input');
+const pronounButton = document.getElementById('pronoun-button');
+const pronounWordBox = document.getElementById('pronoun-word-box');
+
+pronounButton.addEventListener('click', () => {
+    const backgroundColor = '#1B1725';
+    
+})
